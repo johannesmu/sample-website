@@ -1,0 +1,9 @@
+body {
+    background-color: hsl(151, 74%, 91%);
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+}
+h1 {
+    text-decoration: underline;
+    font-size: 45pt;
+}
