@@ -3,7 +3,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color:red;
 }
-h1 {
-    text-decoration: underline;
-    font-size: 45pt;
+.logo {
+    max-width: 100px;
+}
+.page-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: bisque;
 }
