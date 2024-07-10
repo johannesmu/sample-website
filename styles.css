@@ -13,3 +13,9 @@ body {
     align-items: flex-end;
     background-color: bisque;
 }
+.slide {
+    width: 100%;
+    min-height: 50vh;
+    background-color:hsl(151, 20%, 26%);
+    color:hsl(151, 74%, 91%);
+}
