@@ -2,6 +2,8 @@ body {
     background-color: hsl(151, 74%, 91%);
     font-family: Arial, Helvetica, sans-serif;
     color:red;
+    margin: 0px;
+    overflow-y: scroll;
 }
 .logo {
     max-width: 100px;
@@ -18,4 +20,36 @@ body {
     min-height: 50vh;
     background-color:hsl(151, 20%, 26%);
     color:hsl(151, 74%, 91%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 16/5;
+}
+.one {
+    background-image: url("images/pexels-craytive-1545529.jpg");
+}
+.two {
+    background-image: url("images/pexels-jill-wellington-1638660-39351.jpg");
+}
+.three {
+    background-image: url("images/pexels-pixabay-290316.jpg");
+}
+.four {
+    background-image: url("images/pexels-valeriya-1123260.jpg");
+}
+.five {
+    background-image: url("images/pexels-pixabay-51947.jpg");
+}
+.slide p {
+    font-size: 3em;
+    text-shadow: 0px 0px 1px black;
+    background-color: rgba(0, 0, 0, 0.695);
+    min-width: 150px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    color: yellow;
 }
