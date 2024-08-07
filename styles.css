@@ -13,7 +13,39 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    background-color: bisque;
+    background-color: hsl(33, 100%, 88%);
+}
+.main-nav {
+    display: flex;
+    flex-direction: row;
+}
+.main-nav a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: hsl(33, 100%, 18%);
+}
+.main-nav a:hover {
+    background-color: hsl(33, 100%, 18%);
+    color: hsl(33, 100%, 88%);
+}
+#search {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    min-width: 60vh;
+}
+#search input {
+    border: solid 2px hsl(33, 100%, 58%);
+    padding: 0.8em;
+    flex: 1;
+    border-radius: 10px 0px 0px 10px;
+}
+#search button {
+    border: solid 2px hsl(33, 100%, 18%);
+    background-color:hsl(33, 100%, 18%);
+    color: hsl(33, 100%, 88%);
+    border-radius: 0px 10px 10px 0px;
 }
 .slide {
     width: 100%;
