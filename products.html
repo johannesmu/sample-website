@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Page</title>
+    <!-- link to icon for page -->
+    <link rel="icon" href="images/cat-solid-yellow.png">
+    <!-- link to stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- carousel -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Borel&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="page-header">
+        <!-- header -->
+        <!-- logo -->
+        <a href="index.html">
+            <img class="logo" src="images/pngtree-green-tea-logo-illustration-png-image_6283064.png">
+        </a>
+        <!-- search bar -->
+        <form id="search" method="get" action="https://example.com/search">
+            <input type="search" name="query" id="search-input">
+            <button type="submit">Search</button>
+        </form>
+        <!-- main navigation -->
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div class="front-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+        <div class="slide product-one">
+            <p>The best red wine in town</p>
+        </div>
+        <div class="slide product-two">
+            <p>Velvet Midnight</p>
+        </div>
+        <div class="slide product-three">
+            <p>Silken Aurora</p>
+        </div>
+    </div>
+    <main class="page-content">
+        <!-- content -->
+        <div class="card">
+            <img class="card-image" src="products/armands-brants-tDfILN5dfx4-unsplash.jpg">
+            <div class="card-body">
+                <h3 class="card-title">Velvet Vine</h3>
+                <p class="card-description">"Velvet Vine" typically features a harmonious blend of rich, fruity notes
+                    and smooth, velvety textures, often showcasing dark berries like blackcurrant or blackberry combined
+                    with a hint of spice or earthiness. You'll find undertones of chocolate or cream, creating a
+                    luxurious mouthfeel, while the acidity balances the sweetness, providing a refreshing finish.
+                    Overall, it embodies a sophisticated complexity that tantalizes the palate.</p>
+                <p class="price">39</p>
+                <a class="card-button" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-image" src="products/arshla-jindal-JTPrf0at-6I-unsplash.jpg">
+            <div class="card-body">
+                <h3 class="card-title">Celestial Whisper</h3>
+                <p class="card-description">"Celestial Whisper" showcases a harmonious blend of crisp green apple and
+                    ripe pear, layered with delicate notes of citrus zest and hints of honeysuckle. The wine offers a
+                    refreshing acidity that beautifully balances its creamy mid-palate, while nuances of white peach and
+                    a subtle mineral finish evoke the essence of starlit nights, leaving a lingering sense of elegance
+                    and tranquility.</p>
+                <p class="price">29</p>
+                <a class="card-button" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-image" src="products/gilbert-pagunaling-lw8cj0QY5vY-unsplash.jpg">
+            <div class="card-body">
+                <h3 class="card-title">Velvet Midnight</h3>
+                <p class="card-description">"Velvet Midnight" presents a rich tapestry of flavors, featuring luscious
+                    dark cherry and blackberry notes intertwined with hints of ripe plum. The wine is accented by subtle
+                    spices like clove and cinnamon, providing warmth and depth, while a whisper of dark chocolate adds a
+                    luxurious touch. Its velvety tannins provide a smooth mouthfeel, balanced by a vibrant acidity that
+                    lingers into a long, sumptuous finish, evoking the allure of a moonlit evening.</p>
+                <p class="price">49</p>
+                <a class="card-button" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-image" src="products/janosch-diggelmann-XHr4ax263bc-unsplash.jpg">
+            <div class="card-body">
+                <h3 class="card-title">Silken Aurora</h3>
+                <p class="card-description">"Silken Aurora" captivates the palate with a bright medley of crisp green
+                    apple and succulent pear, elegantly supported by subtle notes of citrus zest and a touch of
+                    honeysuckle. Hints of white peach and melon add a luscious sweetness, while a refreshing minerality
+                    and lively acidity provide balance and lift. The finish is smooth and lingering, leaving a delicate
+                    impression of floral and herbaceous nuances, reminiscent of a serene dawn.</p>
+                <p class="price">69</p>
+                <a class="card-button" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-image" src="products/armands-brants-tDfILN5dfx4-unsplash.jpg">
+            <div class="card-body">
+                <h3 class="card-title">Velvet Vine</h3>
+                <p class="card-description">"Velvet Vine" typically features a harmonious blend of rich, fruity notes
+                    and smooth, velvety textures, often showcasing dark berries like blackcurrant or blackberry combined
+                    with a hint of spice or earthiness. You'll find undertones of chocolate or cream, creating a
+                    luxurious mouthfeel, while the acidity balances the sweetness, providing a refreshing finish.
+                    Overall, it embodies a sophisticated complexity that tantalizes the palate.</p>
+                <p class="price">39</p>
+                <a class="card-button" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-image" src="products/arshla-jindal-JTPrf0at-6I-unsplash.jpg">
+            <div class="card-body">
+                <h3 class="card-title">Celestial Whisper</h3>
+                <p class="card-description">"Celestial Whisper" showcases a harmonious blend of crisp green apple and
+                    ripe pear, layered with delicate notes of citrus zest and hints of honeysuckle. The wine offers a
+                    refreshing acidity that beautifully balances its creamy mid-palate, while nuances of white peach and
+                    a subtle mineral finish evoke the essence of starlit nights, leaving a lingering sense of elegance
+                    and tranquility.</p>
+                <p class="price">29</p>
+                <a class="card-button" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-image" src="products/gilbert-pagunaling-lw8cj0QY5vY-unsplash.jpg">
+            <div class="card-body">
+                <h3 class="card-title">Velvet Midnigh</h3>
+                <p class="card-description">"Velvet Midnight" presents a rich tapestry of flavors, featuring luscious
+                    dark cherry and blackberry notes intertwined with hints of ripe plum. The wine is accented by subtle
+                    spices like clove and cinnamon, providing warmth and depth, while a whisper of dark chocolate adds a
+                    luxurious touch. Its velvety tannins provide a smooth mouthfeel, balanced by a vibrant acidity that
+                    lingers into a long, sumptuous finish, evoking the allure of a moonlit evening.</p>
+                <p class="price">49</p>
+                <a class="card-button" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-image" src="products/janosch-diggelmann-XHr4ax263bc-unsplash.jpg">
+            <div class="card-body">
+                <h3 class="card-title">Silken Aurora</h3>
+                <p class="card-description">"Silken Aurora" captivates the palate with a bright medley of crisp green
+                    apple and succulent pear, elegantly supported by subtle notes of citrus zest and a touch of
+                    honeysuckle. Hints of white peach and melon add a luscious sweetness, while a refreshing minerality
+                    and lively acidity provide balance and lift. The finish is smooth and lingering, leaving a delicate
+                    impression of floral and herbaceous nuances, reminiscent of a serene dawn.</p>
+                <p class="price">69</p>
+                <a class="card-button" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-image" src="products/armands-brants-tDfILN5dfx4-unsplash.jpg">
+            <div class="card-body">
+                <h3 class="card-title">Velvet Vine</h3>
+                <p class="card-description">"Velvet Vine" typically features a harmonious blend of rich, fruity notes
+                    and smooth, velvety textures, often showcasing dark berries like blackcurrant or blackberry combined
+                    with a hint of spice or earthiness. You'll find undertones of chocolate or cream, creating a
+                    luxurious mouthfeel, while the acidity balances the sweetness, providing a refreshing finish.
+                    Overall, it embodies a sophisticated complexity that tantalizes the palate.</p>
+                <p class="price">39</p>
+                <a class="card-button" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-image" src="products/arshla-jindal-JTPrf0at-6I-unsplash.jpg">
+            <div class="card-body">
+                <h3 class="card-title">Celestial Whisper</h3>
+                <p class="card-description">"Celestial Whisper" showcases a harmonious blend of crisp green apple and
+                    ripe pear, layered with delicate notes of citrus zest and hints of honeysuckle. The wine offers a
+                    refreshing acidity that beautifully balances its creamy mid-palate, while nuances of white peach and
+                    a subtle mineral finish evoke the essence of starlit nights, leaving a lingering sense of elegance
+                    and tranquility.</p>
+                <p class="price">29</p>
+                <a class="card-button" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-image" src="products/gilbert-pagunaling-lw8cj0QY5vY-unsplash.jpg">
+            <div class="card-body">
+                <h3 class="card-title">Velvet Midnigh</h3>
+                <p class="card-description">"Velvet Midnight" presents a rich tapestry of flavors, featuring luscious
+                    dark cherry and blackberry notes intertwined with hints of ripe plum. The wine is accented by subtle
+                    spices like clove and cinnamon, providing warmth and depth, while a whisper of dark chocolate adds a
+                    luxurious touch. Its velvety tannins provide a smooth mouthfeel, balanced by a vibrant acidity that
+                    lingers into a long, sumptuous finish, evoking the allure of a moonlit evening.</p>
+                <p class="price">49</p>
+                <a class="card-button" href="#">Buy Now</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-image" src="products/janosch-diggelmann-XHr4ax263bc-unsplash.jpg">
+            <div class="card-body">
+                <h3 class="card-title">Silken Aurora</h3>
+                <p class="card-description">"Silken Aurora" captivates the palate with a bright medley of crisp green
+                    apple and succulent pear, elegantly supported by subtle notes of citrus zest and a touch of
+                    honeysuckle. Hints of white peach and melon add a luscious sweetness, while a refreshing minerality
+                    and lively acidity provide balance and lift. The finish is smooth and lingering, leaving a delicate
+                    impression of floral and herbaceous nuances, reminiscent of a serene dawn.</p>
+                <p class="price">69</p>
+                <a class="card-button" href="#">Buy Now</a>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <!-- footer -->
+        <nav class="social">
+            <a href="https://facebook.com">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="https://instagram.com">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+            <a href="https://youtube.com">
+                <i class="fa-brands fa-square-youtube"></i>
+            </a>
+            <a href="https://tiktok.com">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

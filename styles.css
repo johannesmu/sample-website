@@ -1,6 +1,7 @@
 body {
     background-color: hsl(151, 74%, 91%);
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Open Sans", sans-serif;
     color:red;
     margin: 0px;
     overflow-y: scroll;
@@ -59,6 +60,7 @@ body {
     background-size: cover;
     background-position: center;
     aspect-ratio: 16/5;
+    font-family: "Borel", cursive;
 }
 .one {
     background-image: url("images/pexels-craytive-1545529.jpg");
@@ -81,9 +83,12 @@ body {
     background-color: rgba(0, 0, 0, 0.695);
     min-width: 150px;
     text-align: center;
-    padding: 5px;
+    padding: 0.5em;
+    margin: 0px;
     border-radius: 20px;
     color: yellow;
+    display: grid;
+    place-items: center;
 }
 
 .page-content {
@@ -116,4 +121,66 @@ img {
     padding: 0.5em;
     font-size: 2em;
     color: hsl(33, 100%, 18%);
+}
+
+.card {
+    background-color: #faf9f0;
+    border: 1px solid #8a8a89;
+    border-radius: 0.5em;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.card-body {
+    color: #333332;
+    padding: 1em;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.card-description {
+    flex: 1;
+}
+.card-image {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.price {
+    font-weight: bold;
+    text-align: end;
+}
+.price::before {
+    content: "$";
+}
+.card-button {
+    display: block;
+    background-color: #968303;
+    text-align: center;
+    padding: 0.5em;
+    color: #faf9f0;
+    text-decoration: none;
+}
+
+/* product slides */
+.product-one {
+    background-image: url("products/armands-brants-tDfILN5dfx4-unsplash.jpg");
+}
+.product-two {
+    background-image: url("products/arshla-jindal-JTPrf0at-6I-unsplash.jpg");
+}
+.product-three {
+    background-image: url("products/gilbert-pagunaling-lw8cj0QY5vY-unsplash.jpg");
+}
+
+.about-content {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
